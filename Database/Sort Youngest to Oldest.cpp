@@ -78,7 +78,7 @@ void sort(persons y[], int size)
 int main()
 {
 	ifstream ppl;
-	ppl.open("/home/118/peoplefile1.txt");
+	ppl.open("peoplefile1.txt");
 	if (ppl.fail())
 	{
 		cout << "can't open/n";
