@@ -13,16 +13,16 @@ double height(double const v, double const t)
 	return(h);
 }
 
-//void main() //Used to test my formula 
-//{
-	//double v = 50.0;  // Initial velocity in ft/s
-	//double t = 5.0;   // Time in seconds
-	//double h = height(v, t); //calls the height
-	//std::cout << "The height is: " << h << " feet" << std::endl;
-	//std::cout - used to display text/values
-	//<< takes value of right side and outputs it
-	//std::endl - insert newline(move cursor to next line) - writes all text immeditaly 
-//}
+void main() //Used to test my formula 
+{
+	double v = 50.0;  // Initial velocity in ft/s
+	double t = 5.0;   // Time in seconds
+	double h = height(v, t); //calls the height
+	std::cout << "The height is: " << h << " feet" << std::endl;
+	std::cout - used to display text/values
+	<< takes value of right side and outputs it
+	std::endl - insert newline(move cursor to next line) - writes all text immeditaly 
+}
 
 double air_time(double const v) //g isn't needed to be defined b/c it alreayd is defined
 {
@@ -30,9 +30,9 @@ double air_time(double const v) //g isn't needed to be defined b/c it alreayd is
 	return(air_time);
 }
 
-//void main() //used to test air_time formula
-//{
-	//double v = 50.0;
-	//double t = air_time(v);
-	//std::cout << "The air time is: " << t << " seconds" << std::endl;
-//}
+void main() //used to test air_time formula
+{
+	double v = 50.0;
+	double t = air_time(v);
+	std::cout << "The air time is: " << t << " seconds" << std::endl;
+}
